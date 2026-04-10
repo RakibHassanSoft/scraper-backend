@@ -37,7 +37,7 @@ app.use(limiter);
 // ================= ROUTES =================
 app.use('/api/ads', require('./modules/ads/ads.routes'));
 app.use('/api/pages', require('./modules/pages/pages.routes'));
-app.use('/api/web', require('./modules/websites/websites.routes'));
+// app.use('/api/web', require('./modules/websites/websites.routes'));
 
 // 🧪 Test route
 app.get('/', (req, res) => {
